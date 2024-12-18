@@ -1,0 +1,22 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{167E8441-46D6-D350-F930-A99A92B5FEEE}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "SAST_GDADG_WOC_UE5",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "ModelingToolsEditorMode",
+			"Enabled": true,
+			"TargetAllowList": [
+				"Editor"
+			]
+		}
+	]
+}

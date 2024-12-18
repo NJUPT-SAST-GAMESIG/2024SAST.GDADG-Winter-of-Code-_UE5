@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "f:\\2024sast.gdadg-winter-of-code-_ue5\\sast_gdadg_woc_ue5\\source\\sast_gdadg_woc_ue5\\sast_gdadg_woc_ue5.cpp",
+        "ProvidedModule": "",
+        "PCH": "f:\\unrealengine-5.4.4-release\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "f:\\2024sast.gdadg-winter-of-code-_ue5\\sast_gdadg_woc_ue5\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\sast_gdadg_woc_ue5\\definitions.sast_gdadg_woc_ue5.h",
+            "f:\\2024sast.gdadg-winter-of-code-_ue5\\sast_gdadg_woc_ue5\\source\\sast_gdadg_woc_ue5\\sast_gdadg_woc_ue5.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

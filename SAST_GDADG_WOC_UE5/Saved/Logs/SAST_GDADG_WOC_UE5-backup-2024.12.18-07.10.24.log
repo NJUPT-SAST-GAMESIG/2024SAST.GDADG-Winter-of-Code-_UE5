@@ -1,0 +1,567 @@
+﻿Log file open, 12/18/24 15:09:26
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogProfilingDebugging: Loading WinPixEventRuntime.dll for PIX profiling (from ../../../Engine/Binaries/ThirdParty/Windows/WinPixEventRuntime/x64).
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogWindows: Started CrashReportClient (pid=18696)
+LogWindows: Enabling Tpause support
+LogWindows: Custom abort handler registered for crash reporting.
+LogInit: Display: Running engine for game: SAST_GDADG_WOC_UE5
+LogCore: UTS: Unreal Trace Server launched successfully
+LogTrace: Initializing trace...
+LogCore: Display: Requested channels: 'cpu,gpu,frame,log,bookmark,screenshot,region'
+LogTrace: Finished trace initialization.
+LogCsvProfiler: Display: Metadata set : platform="Windows"
+LogCsvProfiler: Display: Metadata set : config="Development"
+LogCsvProfiler: Display: Metadata set : buildversion="UE5-CL-0"
+LogCsvProfiler: Display: Metadata set : engineversion="5.4.4-0+UE5"
+LogCsvProfiler: Display: Metadata set : os="Windows 11 (24H2) [10.0.26120.2415] "
+LogCsvProfiler: Display: Metadata set : cpu="GenuineIntel|13th Gen Intel(R) Core(TM) i7-13700H"
+LogCsvProfiler: Display: Metadata set : pgoenabled="0"
+LogCsvProfiler: Display: Metadata set : pgoprofilingenabled="0"
+LogCsvProfiler: Display: Metadata set : ltoenabled="0"
+LogCsvProfiler: Display: Metadata set : asan="0"
+LogCsvProfiler: Display: Metadata set : commandline="" F:/2024SAST.GDADG-Winter-of-Code-_UE5/SAST_GDADG_WOC_UE5/SAST_GDADG_WOC_UE5.uproject""
+LogCsvProfiler: Display: Metadata set : loginid="7e11978d48242312329221aba405b7ac"
+LogCsvProfiler: Display: Metadata set : llm="0"
+LogStats: Stats thread started at 0.301160
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +8:00, Platform Override: ''
+LogInit: Session CrashGUID >====================================================
+         Session CrashGUID >   UECC-Windows-6BA8FDDB4CEEE74FD7F7FAA11B0E07FF
+         Session CrashGUID >====================================================
+LogConfig: No local boot hotfix file found at: [../../../../2024SAST.GDADG-Winter-of-Code-_UE5/SAST_GDADG_WOC_UE5/Saved/PersistentDownloadDir/HotfixForNextBoot.txt]
+LogConfig: Display: Loading IOS ini files took 0.03 seconds
+LogConfig: Display: Loading Android ini files took 0.04 seconds
+LogConfig: Display: Loading Mac ini files took 0.04 seconds
+LogConfig: Display: Loading VulkanPC ini files took 0.04 seconds
+LogConfig: Display: Loading Unix ini files took 0.04 seconds
+LogConfig: Display: Loading Windows ini files took 0.04 seconds
+LogConfig: Display: Loading TVOS ini files took 0.05 seconds
+LogConfig: Display: Loading VisionOS ini files took 0.05 seconds
+LogConfig: Display: Loading Linux ini files took 0.05 seconds
+LogConfig: Display: Loading LinuxArm64 ini files took 0.05 seconds
+LogPluginManager: Mounting Engine plugin Bridge
+LogPluginManager: Mounting Engine plugin ChaosCloth
+LogPluginManager: Mounting Engine plugin ChaosVD
+LogPluginManager: Found config from plugin[ChaosVD] Engine
+LogPluginManager: Mounting Engine plugin CmdLinkServer
+LogPluginManager: Mounting Engine plugin EnhancedInput
+LogPluginManager: Found config from plugin[EnhancedInput] Input
+LogPluginManager: Mounting Engine plugin FastBuildController
+LogPluginManager: Mounting Engine plugin Fab
+LogPluginManager: Mounting Engine plugin MeshPainting
+LogPluginManager: Mounting Engine plugin RenderGraphInsights
+LogPluginManager: Mounting Engine plugin TraceUtilities
+LogPluginManager: Mounting Engine plugin XGEController
+LogPluginManager: Mounting Engine plugin WorldMetrics
+LogPluginManager: Mounting Engine plugin AutomationUtils
+LogPluginManager: Mounting Engine plugin BackChannel
+LogPluginManager: Mounting Engine plugin ChaosEditor
+LogPluginManager: Mounting Engine plugin ChaosUserDataPT
+LogPluginManager: Mounting Engine plugin ChaosSolverPlugin
+LogPluginManager: Mounting Engine plugin ChaosCaching
+LogPluginManager: Mounting Engine plugin CharacterAI
+LogPluginManager: Mounting Engine plugin ChaosNiagara
+LogPluginManager: Mounting Engine plugin Dataflow
+LogPluginManager: Mounting Engine plugin Fracture
+LogPluginManager: Mounting Engine plugin FullBodyIK
+LogPluginManager: Mounting Engine plugin GeometryFlow
+LogPluginManager: Mounting Engine plugin GeometryCollectionPlugin
+LogPluginManager: Mounting Engine plugin MeshModelingToolsetExp
+LogPluginManager: Mounting Engine plugin LocalizableMessage
+LogPluginManager: Mounting Engine plugin OpenImageDenoise
+LogPluginManager: Mounting Engine plugin PlanarCut
+LogPluginManager: Mounting Engine plugin PlatformCrypto
+LogPluginManager: Mounting Engine plugin PythonScriptPlugin
+LogPluginManager: Mounting Engine plugin StudioTelemetry
+LogPluginManager: Mounting Engine plugin StructUtils
+LogPluginManager: Mounting Engine plugin SkeletalReduction
+LogPluginManager: Mounting Engine plugin ToolPresets
+LogPluginManager: Mounting Engine plugin Takes
+LogPluginManager: Mounting Engine plugin DatasmithContent
+LogPluginManager: Mounting Engine plugin GLTFExporter
+LogPluginManager: Mounting Engine plugin VariantManager
+LogPluginManager: Mounting Engine plugin Niagara
+LogPluginManager: Mounting Engine plugin VariantManagerContent
+LogPluginManager: Mounting Engine plugin NiagaraSimCaching
+LogPluginManager: Mounting Engine plugin InterchangeEditor
+LogPluginManager: Mounting Engine plugin Interchange
+LogPluginManager: Mounting Engine plugin OodleNetwork
+LogPluginManager: Mounting Engine plugin InterchangeTests
+LogPluginManager: Mounting Engine plugin AndroidMedia
+LogPluginManager: Mounting Engine plugin AvfMedia
+LogPluginManager: Mounting Engine plugin MediaCompositing
+LogPluginManager: Mounting Engine plugin ImgMedia
+LogPluginManager: Mounting Engine plugin MediaPlate
+LogPluginManager: Mounting Engine plugin MediaPlayerEditor
+LogPluginManager: Mounting Engine plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin AndroidFileServer
+LogPluginManager: Mounting Engine plugin ActorLayerUtilities
+LogPluginManager: Mounting Engine plugin AndroidMoviePlayer
+LogPluginManager: Mounting Engine plugin LauncherChunkInstaller
+LogPluginManager: Mounting Engine plugin AndroidPermission
+LogPluginManager: Mounting Engine plugin WmfMedia
+LogPluginManager: Mounting Engine plugin WebMMedia
+LogPluginManager: Mounting Engine plugin AppleImageUtils
+LogPluginManager: Mounting Engine plugin AppleMoviePlayer
+LogPluginManager: Mounting Engine plugin AssetTags
+LogPluginManager: Mounting Engine plugin AudioCapture
+LogPluginManager: Mounting Engine plugin ArchVisCharacter
+LogPluginManager: Mounting Engine plugin AudioWidgets
+LogPluginManager: Mounting Engine plugin CustomMeshComponent
+LogPluginManager: Mounting Engine plugin AudioSynesthesia
+LogPluginManager: Mounting Engine plugin CableComponent
+LogPluginManager: Mounting Engine plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin GeometryCache
+LogPluginManager: Mounting Engine plugin GeometryProcessing
+LogPluginManager: Mounting Engine plugin ChunkDownloader
+LogPluginManager: Mounting Engine plugin GoogleCloudMessaging
+LogPluginManager: Mounting Engine plugin GooglePAD
+LogPluginManager: Mounting Engine plugin InputDebugging
+LogPluginManager: Found config from plugin[InputDebugging] Input
+LogPluginManager: Mounting Engine plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin LocationServicesBPLibrary
+LogPluginManager: Mounting Engine plugin MeshModelingToolset
+LogPluginManager: Mounting Engine plugin Metasound
+LogPluginManager: Mounting Engine plugin MobilePatchingUtils
+LogPluginManager: Mounting Engine plugin MsQuic
+LogPluginManager: Mounting Engine plugin ProceduralMeshComponent
+LogPluginManager: Mounting Engine plugin PropertyAccessEditor
+LogPluginManager: Mounting Engine plugin ResonanceAudio
+LogPluginManager: Mounting Engine plugin RigVM
+LogPluginManager: Mounting Engine plugin SignificanceManager
+LogPluginManager: Mounting Engine plugin SoundFields
+LogPluginManager: Mounting Engine plugin Synthesis
+LogPluginManager: Mounting Engine plugin WaveTable
+LogPluginManager: Mounting Engine plugin WindowsDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin WindowsMoviePlayer
+LogPluginManager: Mounting Engine plugin WebMMoviePlayer
+LogPluginManager: Mounting Engine plugin CLionSourceCodeAccess
+LogPluginManager: Mounting Engine plugin AnimationSharing
+LogPluginManager: Mounting Engine plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting Engine plugin DumpGPUServices
+LogPluginManager: Mounting Engine plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting Engine plugin PerforceSourceControl
+LogPluginManager: Mounting Engine plugin PixWinPlugin
+LogPluginManager: Mounting Engine plugin N10XSourceCodeAccess
+LogPluginManager: Mounting Engine plugin NullSourceCodeAccess
+LogPluginManager: Mounting Engine plugin GitSourceControl
+LogPluginManager: Mounting Engine plugin PropertyAccessNode
+LogPluginManager: Mounting Engine plugin RenderDocPlugin
+LogPluginManager: Mounting Engine plugin PlasticSourceControl
+LogPluginManager: Mounting Engine plugin PluginUtils
+LogPluginManager: Mounting Engine plugin RiderSourceCodeAccess
+LogPluginManager: Mounting Engine plugin SubversionSourceControl
+LogPluginManager: Mounting Engine plugin TextureFormatOodle
+LogPluginManager: Mounting Engine plugin TraceDataFilters
+LogPluginManager: Mounting Engine plugin UObjectPlugin
+LogPluginManager: Mounting Engine plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting Engine plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting Engine plugin TcpMessaging
+LogPluginManager: Mounting Engine plugin UdpMessaging
+LogPluginManager: Mounting Engine plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting Engine plugin OnlineServices
+LogPluginManager: Mounting Engine plugin OnlineSubsystem
+LogPluginManager: Mounting Engine plugin OnlineBase
+LogPluginManager: Mounting Engine plugin OnlineSubsystemNull
+LogPluginManager: Mounting Engine plugin OnlineSubsystemUtils
+LogPluginManager: Mounting Engine plugin EnvironmentQueryEditor
+LogPluginManager: Mounting Engine plugin Paper2D
+LogPluginManager: Mounting Engine plugin AnimationModifierLibrary
+LogPluginManager: Mounting Engine plugin AnimationData
+LogPluginManager: Mounting Engine plugin AISupport
+LogPluginManager: Mounting Engine plugin BlendSpaceMotionAnalysis
+LogPluginManager: Mounting Engine plugin ACLPlugin
+LogPluginManager: Mounting Engine plugin ControlRigSpline
+LogPluginManager: Mounting Engine plugin ControlRig
+LogPluginManager: Mounting Engine plugin ControlRigModules
+LogPluginManager: Mounting Engine plugin IKRig
+LogPluginManager: Mounting Engine plugin CameraShakePreviewer
+LogPluginManager: Mounting Engine plugin GameplayCameras
+LogPluginManager: Mounting Engine plugin AssetManagerEditor
+LogPluginManager: Mounting Engine plugin BlueprintHeaderView
+LogPluginManager: Mounting Engine plugin ChangelistReview
+LogPluginManager: Mounting Engine plugin CryptoKeys
+LogPluginManager: Mounting Engine plugin CurveEditorTools
+LogPluginManager: Mounting Engine plugin EditorDebugTools
+LogPluginManager: Mounting Engine plugin DataValidation
+LogPluginManager: Mounting Engine plugin EditorScriptingUtilities
+LogPluginManager: Mounting Engine plugin FacialAnimation
+LogPluginManager: Mounting Engine plugin GameplayTagsEditor
+LogPluginManager: Mounting Engine plugin GeometryMode
+LogPluginManager: Mounting Engine plugin MacGraphicsSwitching
+LogPluginManager: Mounting Engine plugin EngineAssetDefinitions
+LogPluginManager: Mounting Engine plugin MaterialAnalyzer
+LogPluginManager: Mounting Engine plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting Engine plugin MeshLODToolset
+LogPluginManager: Mounting Engine plugin ProxyLODPlugin
+LogPluginManager: Mounting Engine plugin PluginBrowser
+LogPluginManager: Mounting Engine plugin ModelingToolsEditorMode
+LogPluginManager: Mounting Engine plugin SequencerAnimTools
+LogPluginManager: Mounting Engine plugin SpeedTreeImporter
+LogPluginManager: Mounting Engine plugin UVEditor
+LogPluginManager: Mounting Engine plugin AlembicImporter
+LogPluginManager: Mounting Engine plugin WorldPartitionHLODUtilities
+LogPluginManager: Mounting Engine plugin LevelSequenceEditor
+LogPluginManager: Mounting Engine plugin ActorSequence
+LogPluginManager: Mounting Engine plugin SequencerScripting
+LogPluginManager: Mounting Engine plugin TemplateSequence
+LogPluginManager: Mounting Engine plugin MetaHumanProjectUtilities
+LogPluginManager: Mounting Engine plugin BaseCharacterFXEditor
+LogPluginManager: Mounting Engine plugin OnlineSubsystemIOS
+LogPluginManager: Mounting Engine plugin XInputDevice
+LogPluginManager: Mounting Engine plugin ContentBrowserFileDataSource
+LogPluginManager: Mounting Engine plugin ContentBrowserAssetDataSource
+LogPluginManager: Mounting Engine plugin ContentBrowserClassDataSource
+LogPluginManager: Mounting Engine plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting Engine plugin RiderLink
+LogPluginManager: Mounting Engine plugin PortableObjectFileDataSource
+LogPluginManager: Mounting Engine plugin ObjectMixer
+LogPluginManager: Mounting Engine plugin LightMixer
+SourceControl: Revision control is disabled
+SourceControl: Revision control is disabled
+SourceControl: Revision control is disabled
+LogInit: Warning: Incompatible or missing module: SAST_GDADG_WOC_UE5
+Running F:/UnrealEngine-5.4.4-release/Engine/Build/BatchFiles/Build.bat Development Win64 -Project="F:/2024SAST.GDADG-Winter-of-Code-_UE5/SAST_GDADG_WOC_UE5/SAST_GDADG_WOC_UE5.uproject" -TargetType=Editor -Progress -NoEngineChanges -NoHotReloadFromIDE
+Using bundled DotNet SDK version: 6.0.302
+Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" Development Win64 -Project="F:/2024SAST.GDADG-Winter-of-Code-_UE5/SAST_GDADG_WOC_UE5/SAST_GDADG_WOC_UE5.uproject" -TargetType=Editor -Progress -NoEngineChanges -NoHotReloadFromIDE
+Log file: F:\UnrealEngine-5.4.4-release\Engine\Programs\UnrealBuildTool\Log.txt
+Using 'git status' to determine working set for adaptive non-unity build (F:\2024SAST.GDADG-Winter-of-Code-_UE5).
+Creating makefile for SAST_GDADG_WOC_UE5Editor (no existing makefile)
+@progress push 5%
+Parsing headers for SAST_GDADG_WOC_UE5Editor
+  Running Internal UnrealHeaderTool F:\2024SAST.GDADG-Winter-of-Code-_UE5\SAST_GDADG_WOC_UE5\SAST_GDADG_WOC_UE5.uproject F:\2024SAST.GDADG-Winter-of-Code-_UE5\SAST_GDADG_WOC_UE5\Intermediate\Build\Win64\SAST_GDADG_WOC_UE5Editor\Development\SAST_GDADG_WOC_UE5Editor.uhtmanifest -WarningsAsErrors
+Total of 14 written
+Reflection code generated for SAST_GDADG_WOC_UE5Editor in 36.2205201 seconds
+@progress pop
+Building would modify the following engine files:
+
+F:\UnrealEngine-5.4.4-release\Engine\Binaries\Win64\Android\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Binaries\Win64\LinuxArm64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Binaries\Win64\Linux\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Binaries\Win64\UnrealEditor.version
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\2D\Paper2D\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\AI\AISupport\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\AI\EnvironmentQueryEditor\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Animation\ACLPlugin\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Animation\AnimationData\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Animation\AnimationModifierLibrary\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Animation\BlendSpaceMotionAnalysis\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Animation\ControlRigSpline\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Animation\ControlRig\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Animation\IKRig\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Bridge\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Cameras\CameraShakePreviewer\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Cameras\GameplayCameras\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\ChaosCloth\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\ChaosVD\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\CmdLinkServer\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Compression\OodleNetwork\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Developer\AnimationSharing\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Developer\CLionSourceCodeAccess\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Developer\DumpGPUServices\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Developer\GitSourceControl\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Developer\N10XSourceCodeAccess\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Developer\PerforceSourceControl\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Developer\PixWinPlugin\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Developer\PlasticSourceControl\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Developer\PluginUtils\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Developer\PropertyAccessNode\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Developer\RenderDocPlugin\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Developer\RiderSourceCodeAccess\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Developer\SubversionSourceControl\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Developer\TextureFormatOodle\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Developer\TraceDataFiltering\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Developer\UObjectPlugin\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Developer\VisualStudioCodeSourceCodeAccess\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Developer\VisualStudioSourceCodeAccess\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Editor\AssetManagerEditor\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Editor\BlueprintHeaderView\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Editor\ChangelistReview\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Editor\ContentBrowser\ContentBrowserAssetDataSource\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Editor\ContentBrowser\ContentBrowserClassDataSource\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Editor\ContentBrowser\ContentBrowserFileDataSource\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Editor\CryptoKeys\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Editor\CurveEditorTools\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Editor\DataValidation\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Editor\EditorDebugTools\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Editor\EditorScriptingUtilities\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Editor\EngineAssetDefinitions\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Editor\FacialAnimation\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Editor\GameplayTagsEditor\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Editor\GeometryMode\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Editor\Localization\PortableObjectFileDataSource\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Editor\MaterialAnalyzer\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Editor\MeshLODToolset\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Editor\MobileLauncherProfileWizard\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Editor\ModelingToolsEditorMode\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Editor\ObjectMixer\LightMixer\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Editor\ObjectMixer\ObjectMixer\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Editor\PluginBrowser\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Editor\ProxyLODPlugin\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Editor\SequencerAnimTools\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Editor\SpeedTreeImporter\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Editor\UVEditor\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Editor\WorldPartitionHLODUtilities\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\EnhancedInput\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Enterprise\DatasmithContent\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Enterprise\GLTFExporter\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Enterprise\VariantManagerContent\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Enterprise\VariantManager\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Experimental\AutomationUtils\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Experimental\BackChannel\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Experimental\ChaosCaching\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Experimental\ChaosEditor\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Experimental\ChaosNiagara\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Experimental\ChaosSolverPlugin\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Experimental\ChaosUserDataPT\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Experimental\CharacterAI\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Experimental\CharacterFXEditor\BaseCharacterFXEditor\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Experimental\Dataflow\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Experimental\Fracture\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Experimental\FullBodyIK\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Experimental\GeometryCollectionPlugin\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Experimental\GeometryFlow\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Experimental\LocalizableMessage\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Experimental\MeshModelingToolsetExp\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Experimental\MetaHuman\MetaHumanProjectUtilities\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Experimental\OpenImageDenoise\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Experimental\PlanarCutPlugin\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Experimental\PlatformCrypto\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Experimental\PythonScriptPlugin\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Experimental\SkeletalReduction\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Experimental\StructUtils\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Experimental\StudioTelemetry\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Experimental\ToolPresets\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\FX\NiagaraSimCaching\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\FX\Niagara\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Fab\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\FastBuildController\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Importers\AlembicImporter\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Interchange\Editor\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Interchange\Runtime\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Binaries\Win64\UnrealEditor-RD.dll
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Binaries\Win64\UnrealEditor-RD.pdb
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Binaries\Win64\UnrealEditor-RiderBlueprint.dll
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Binaries\Win64\UnrealEditor-RiderBlueprint.pdb
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Binaries\Win64\UnrealEditor-RiderDebuggerSupport.dll
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Binaries\Win64\UnrealEditor-RiderDebuggerSupport.pdb
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Binaries\Win64\UnrealEditor-RiderGameControl.dll
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Binaries\Win64\UnrealEditor-RiderGameControl.pdb
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Binaries\Win64\UnrealEditor-RiderLC.dll
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Binaries\Win64\UnrealEditor-RiderLC.pdb
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Binaries\Win64\UnrealEditor-RiderLink.dll
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Binaries\Win64\UnrealEditor-RiderLink.pdb
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Binaries\Win64\UnrealEditor-RiderLogging.dll
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Binaries\Win64\UnrealEditor-RiderLogging.pdb
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Binaries\Win64\UnrealEditor-RiderShaderInfo.dll
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Binaries\Win64\UnrealEditor-RiderShaderInfo.pdb
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\ActiveSocket.cpp.dep.json
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\ActiveSocket.cpp.obj
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\Buffer.cpp.dep.json
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\Buffer.cpp.obj
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\ByteBufferAsyncProcessor.cpp.dep.json
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\ByteBufferAsyncProcessor.cpp.obj
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\DateTime.cpp.dep.json
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\DateTime.cpp.obj
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\DefaultAbstractDeclaration.cpp.dep.json
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\DefaultAbstractDeclaration.cpp.obj
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\ExtWire.cpp.dep.json
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\ExtWire.cpp.obj
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\IProtocol.cpp.dep.json
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\IProtocol.cpp.obj
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\IRdWireable.cpp.dep.json
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\IRdWireable.cpp.obj
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\IScheduler.cpp.dep.json
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\IScheduler.cpp.obj
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\ISerializable.cpp.dep.json
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\ISerializable.cpp.obj
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\ISerializersOwner.cpp.dep.json
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\ISerializersOwner.cpp.obj
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\IUnknownInstance.cpp.dep.json
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\IUnknownInstance.cpp.obj
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\Identities.cpp.dep.json
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\Identities.cpp.obj
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\InternRoot.cpp.dep.json
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\InternRoot.cpp.obj
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\InternScheduler.cpp.dep.json
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\InternScheduler.cpp.obj
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\Lifetime.cpp.dep.json
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\Lifetime.cpp.obj
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\LifetimeDefinition.cpp.dep.json
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\LifetimeDefinition.cpp.obj
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\LifetimeImpl.cpp.dep.json
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\LifetimeImpl.cpp.obj
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\MessageBroker.cpp.dep.json
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\MessageBroker.cpp.obj
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\PassiveSocket.cpp.dep.json
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\PassiveSocket.cpp.obj
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\PkgInputStream.cpp.dep.json
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\PkgInputStream.cpp.obj
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\Polymorphic.cpp.dep.json
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\Polymorphic.cpp.obj
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\Protocol.cpp.dep.json
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\Protocol.cpp.obj
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\PumpScheduler.cpp.dep.json
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\PumpScheduler.cpp.obj
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\RD.cpp.dep.json
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\RD.cpp.obj
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\RName.cpp.dep.json
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\RName.cpp.obj
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\RdAny.cpp.dep.json
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\RdAny.cpp.obj
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\RdBindableBase.cpp.dep.json
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\RdBindableBase.cpp.obj
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\RdExtBase.cpp.dep.json
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\RdExtBase.cpp.obj
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\RdId.cpp.dep.json
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\RdId.cpp.obj
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\RdReactiveBase.cpp.dep.json
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\RdReactiveBase.cpp.obj
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\RdTextBuffer.cpp.dep.json
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\RdTextBuffer.cpp.obj
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\SequentialLifetimes.cpp.dep.json
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\SequentialLifetimes.cpp.obj
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\SerializationCtx.cpp.dep.json
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\SerializationCtx.cpp.obj
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\Serializers.cpp.dep.json
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\Serializers.cpp.obj
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\SignalCookie.cpp.dep.json
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\SignalCookie.cpp.obj
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\SimpleScheduler.cpp.dep.json
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\SimpleScheduler.cpp.obj
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\SimpleSocket.cpp.dep.json
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\SimpleSocket.cpp.obj
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\SingleThreadScheduler.cpp.dep.json
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\SingleThreadScheduler.cpp.obj
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\SingleThreadSchedulerBase.cpp.dep.json
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\SingleThreadSchedulerBase.cpp.obj
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\SocketWire.cpp.dep.json
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\SocketWire.cpp.obj
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\SynchronousScheduler.cpp.dep.json
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\SynchronousScheduler.cpp.obj
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\UnrealEditor-RD.lib
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\WireBase.cpp.dep.json
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\WireBase.cpp.obj
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\WireUtil.cpp.dep.json
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\WireUtil.cpp.obj
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\async.cpp.dep.json
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\async.cpp.obj
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\cfg.cpp.dep.json
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\cfg.cpp.obj
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\color_sinks.cpp.dep.json
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\color_sinks.cpp.obj
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\countdownlatch.cpp.dep.json
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\countdownlatch.cpp.obj
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\file_sinks.cpp.dep.json
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\file_sinks.cpp.obj
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\fmt.cpp.dep.json
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\fmt.cpp.obj
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\hashing.cpp.dep.json
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\hashing.cpp.obj
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\spdlog.cpp.dep.json
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\spdlog.cpp.obj
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\stdout_sinks.cpp.dep.json
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\stdout_sinks.cpp.obj
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\thirdparty.cpp.dep.json
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\thirdparty.cpp.obj
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\thread_util.cpp.dep.json
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RD\thread_util.cpp.obj
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RiderBlueprint\Module.RiderBlueprint.cpp.dep.json
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RiderBlueprint\Module.RiderBlueprint.cpp.obj
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RiderBlueprint\UnrealEditor-RiderBlueprint.lib
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RiderDebuggerSupport\Module.RiderDebuggerSupport.cpp.dep.json
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RiderDebuggerSupport\Module.RiderDebuggerSupport.cpp.obj
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RiderDebuggerSupport\UnrealEditor-RiderDebuggerSupport.lib
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RiderGameControl\Module.RiderGameControl.cpp.dep.json
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RiderGameControl\Module.RiderGameControl.cpp.obj
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RiderGameControl\UnrealEditor-RiderGameControl.lib
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RiderLC\Module.RiderLC.cpp.dep.json
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RiderLC\Module.RiderLC.cpp.obj
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RiderLC\UnrealEditor-RiderLC.lib
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RiderLink\Module.RiderLink.cpp.dep.json
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RiderLink\Module.RiderLink.cpp.obj
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RiderLink\UnrealEditor-RiderLink.lib
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RiderLogging\Module.RiderLogging.cpp.dep.json
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RiderLogging\Module.RiderLogging.cpp.obj
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RiderLogging\UnrealEditor-RiderLogging.lib
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RiderShaderInfo\Module.RiderShaderInfo.cpp.dep.json
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RiderShaderInfo\Module.RiderShaderInfo.cpp.obj
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Marketplace\Developer\RiderLink\Intermediate\Build\Win64\x64\UnrealEditor\Development\RiderShaderInfo\UnrealEditor-RiderShaderInfo.lib
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Media\AndroidMedia\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Media\AvfMedia\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Media\ImgMedia\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Media\MediaCompositing\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Media\MediaPlate\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Media\MediaPlayerEditor\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Media\WebMMedia\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Media\WmfMedia\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\MeshPainting\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Messaging\TcpMessaging\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Messaging\UdpMessaging\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\MovieScene\ActorSequence\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\MovieScene\LevelSequenceEditor\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\MovieScene\SequencerScripting\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\MovieScene\TemplateSequence\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Online\OnlineBase\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Online\OnlineServices\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Online\OnlineSubsystemNull\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Online\OnlineSubsystemUtils\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Online\OnlineSubsystem\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Portal\LauncherChunkInstaller\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\RenderGraphInsights\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Runtime\ActorLayerUtilities\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Runtime\AndroidDeviceProfileSelector\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Runtime\AndroidFileServer\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Runtime\AndroidPermission\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Runtime\AppleImageUtils\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Runtime\ArchVisCharacter\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Runtime\AssetTags\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Runtime\AudioCapture\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Runtime\AudioSynesthesia\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Runtime\AudioWidgets\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Runtime\CableComponent\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Runtime\ChunkDownloader\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Runtime\CustomMeshComponent\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Runtime\ExampleDeviceProfileSelector\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Runtime\GeometryCache\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Runtime\GeometryProcessing\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Runtime\GooglePAD\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Runtime\InputDebugging\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Runtime\LocationServicesBPLibrary\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Runtime\MeshModelingToolset\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Runtime\Metasound\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Runtime\MobilePatchingUtils\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Runtime\MsQuic\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Runtime\ProceduralMeshComponent\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Runtime\PropertyAccess\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Runtime\ResonanceAudio\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Runtime\RigVM\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Runtime\SignificanceManager\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Runtime\SoundFields\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Runtime\Synthesis\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Runtime\WaveTable\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Runtime\WebMMoviePlayer\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Runtime\WindowsDeviceProfileSelector\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Runtime\WindowsMoviePlayer\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Runtime\Windows\XInputDevice\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\Tests\InterchangeTests\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\TraceUtilities\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\VirtualProduction\Takes\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\WorldMetrics\Binaries\Win64\UnrealEditor.modules
+F:\UnrealEngine-5.4.4-release\Engine\Plugins\XGEController\Binaries\Win64\UnrealEditor.modules
+
+Please rebuild from an IDE instead.
+Total execution time: 49.25 seconds
+LogCore: Engine exit requested (reason: EngineExit() was called)
+LogExit: Preparing to exit.
+LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+LogPakFile: Destroying PakPlatformFile
+LogExit: Exiting.
+Log file closed, 12/18/24 15:10:24

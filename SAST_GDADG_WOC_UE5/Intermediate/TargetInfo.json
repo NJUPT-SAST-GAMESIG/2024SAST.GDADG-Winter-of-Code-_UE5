@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "SAST_GDADG_WOC_UE5",
+			"Path": "..\\Source\\SAST_GDADG_WOC_UE5.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "SAST_GDADG_WOC_UE5Editor",
+			"Path": "..\\Source\\SAST_GDADG_WOC_UE5Editor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

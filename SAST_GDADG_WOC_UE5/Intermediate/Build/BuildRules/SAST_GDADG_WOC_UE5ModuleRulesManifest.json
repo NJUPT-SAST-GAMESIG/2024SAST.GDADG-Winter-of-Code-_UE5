@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"F:\\2024SAST.GDADG-Winter-of-Code-_UE5\\SAST_GDADG_WOC_UE5\\Source\\SAST_GDADG_WOC_UE5\\SAST_GDADG_WOC_UE5.Build.cs",
+		"F:\\2024SAST.GDADG-Winter-of-Code-_UE5\\SAST_GDADG_WOC_UE5\\Source\\SAST_GDADG_WOC_UE5.Target.cs",
+		"F:\\2024SAST.GDADG-Winter-of-Code-_UE5\\SAST_GDADG_WOC_UE5\\Source\\SAST_GDADG_WOC_UE5Editor.Target.cs"
+	],
+	"EngineVersion": "5.4.4"
+}
